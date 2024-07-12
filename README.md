@@ -1,2 +1,2 @@
 # sudoku-solver
-The purpose of this project is to create a graphical user interface (GUI) tool using Tkinter that can solve Sudoku puzzles. Users will input a Sudoku puzzle through the GUI, and the tool will use an algorithm to solve it and display the solution.
+The purpose of this project is to create a command-line interface (CLI) tool that can generate and solve Sudoku puzzles. The initial version will focus on generating a valid random Sudoku board and demonstrating the backtracking algorithm.
