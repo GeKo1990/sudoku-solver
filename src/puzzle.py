@@ -11,7 +11,6 @@ class Puzzle:
         os.system('cls' if os.name == 'nt' else 'clear')
 
     def print_board(self):
-        # Print the Sudoku board in the desired format
         self.clear_screen()
         separator_line = "=" * 41
 
@@ -34,6 +33,8 @@ class Puzzle:
                 print_separator()
             else:
                 print("-" * 41)
+        
+        time.sleep(0.05)
 
                     
     def is_valid(self, num, pos):
@@ -73,6 +74,4 @@ class Puzzle:
                 col = random.randint(0, 8)
                 num = random.randint(1, 9)
             self.board[row][col] = num
-            self.clear_screen()
             self.print_board()
-            time.sleep(0.05)
